@@ -29161,7 +29161,7 @@ window.onload = function() {
     //    React.render(<Board />, $("#grid")[0]);
 
     console.log('onload running ...');
-    $.getJSON("../images/KanyeWest_4475Web.json", function(data) {
+    $.getJSON("http://paul-jean.github.io/kanye-gol/images/KanyeWest_4475Web.json", function(data) {
         console.log('just finished loading json ...');
         kanyeGrid = [];
         var row;
